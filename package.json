@@ -1,0 +1,19 @@
+{
+  "name": "pro-vscode-extension-pack",
+  "displayName": "Pro VSCode Extension Pack",
+  "description": "A professional extension pack for VS Code developers.",
+  "version": "1.0.0",
+  "publisher": "alvarosiles",
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "alvarosiles.pro-vscode-themes",
+    "alvarosiles.pro-vscode-keybindings",
+    "alvarosiles.pro-snippets",
+    "alvarosiles.pro-vscode-tools"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  }
+}
