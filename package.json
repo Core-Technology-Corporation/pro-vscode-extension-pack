@@ -1,19 +1,43 @@
 {
   "name": "pro-vscode-extension-pack",
-  "displayName": "Pro VSCode Extension Pack",
-  "description": "A professional extension pack for VS Code developers.",
+  "displayName": "Alvaro's Pro Dev Pack",
+  "description": "A curated collection of professional Pro VSCode extensions: themes, keybindings, snippets, tools, and AI assistance — everything you need for a productive setup in one install.",
   "version": "1.0.0",
   "publisher": "alvarosiles",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#1B1D23",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
   "categories": [
     "Extension Packs"
   ],
+  "keywords": [
+    "extension pack",
+    "productivity",
+    "theme",
+    "keybindings",
+    "snippets",
+    "ai",
+    "tools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alvarosiles/pro-vscode-extension-pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alvarosiles/pro-vscode-extension-pack/issues"
+  },
+  "homepage": "https://github.com/alvarosiles/pro-vscode-extension-pack#readme",
   "extensionPack": [
     "alvarosiles.pro-vscode-themes",
     "alvarosiles.pro-vscode-keybindings",
     "alvarosiles.pro-snippets",
-    "alvarosiles.pro-vscode-tools"
-  ],
-  "engines": {
-    "vscode": "^1.80.0"
-  }
+    "alvarosiles.pro-vscode-tools",
+    "alvarosiles.pro-vscode-ai"
+  ]
 }
