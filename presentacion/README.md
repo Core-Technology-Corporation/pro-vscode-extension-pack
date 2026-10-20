@@ -50,7 +50,7 @@ Found a bug or have a suggestion for one of the bundled extensions? Open an issu
 ### Known issues
 
 - **Mismatched ID for the snippets extension.** The pack (and `docs/extensions.md`) reference `alvarosiles.pro-snippets`, but the snippets repository declares `"name": "pro-vscode-snippets"`, so its ID is `alvarosiles.pro-vscode-snippets`. The pack will not find it unless one of the two names is changed.
-- Several bundled extensions are not published yet: Snippets, Tools and AI are at `0.0.1`, and AI is marked `"private": true`. Installing the pack from the Marketplace only works once all five are published.
+- All five extensions are published on the Marketplace (checked 2026-10-20). Because of the ID mismatch above, the snippets extension is not installed together with the pack.
 - `docs/extensions.md` lists TypeScript and CSS snippets, but the snippets extension doesn't ship them.
 
 ## License

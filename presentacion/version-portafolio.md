@@ -62,12 +62,11 @@ Coordinar las versiones y los IDs de publicación entre cinco repositorios.
 ## Mejoras futuras recomendadas
 
 - **Corregir el ID de la extensión de snippets**: el pack referencia `alvarosiles.pro-snippets`, pero la extensión se llama `pro-vscode-snippets`.
-- Publicar Snippets, Tools y AI, que hoy están en `0.0.1`, para que la instalación del pack funcione completa.
 - Alinear `docs/extensions.md` con el contenido real de cada extensión.
 
 ## Estado
 
-Versión `1.0.0`. Depende de que las cinco extensiones estén publicadas en el Marketplace; hoy al menos tres no lo están.
+Versión `1.0.0`, publicada en el Marketplace. Las cinco extensiones también están publicadas (verificado el 2026-10-20), pero el pack referencia `alvarosiles.pro-snippets`, un ID que no existe en el Marketplace, así que la extensión de snippets no se instala con el pack hasta corregirlo.
 
 ## Capturas
 
@@ -77,4 +76,4 @@ Versión `1.0.0`. Depende de que las cinco extensiones estén publicadas en el M
 | `presentacion/02-funcionalidad-principal.png` | El pack en uso: README del pack con la tabla de extensiones y la vista **Pro Tools: Quick Actions** activa, con el tema Pro Dark. |
 | `presentacion/03-funcionalidad-complementaria.png` | Editor de atajos filtrado por `@source:extension`, con los atajos de Pro VSCode Keybindings activos dentro del entorno del pack. |
 
-Capturas de las extensiones ejecutándose juntas en un *Extension Development Host* (cargadas desde copias locales, porque el pack no puede instalarlas desde el Marketplace mientras no estén publicadas).
+Capturas de las extensiones ejecutándose juntas en un *Extension Development Host* (cargadas desde copias locales de los repositorios).

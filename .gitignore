@@ -5,3 +5,6 @@ out/
 dist/
 *.log
 .DS_Store
+
+# Paquete publicado para descarga desde la página de presentación
+!presentacion/descarga/*.vsix
